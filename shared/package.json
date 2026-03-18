@@ -10,7 +10,9 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
+    "@geo-maps/earth-seas-10m": "^0.6.0",
     "axios": "^1.13.4",
+    "geojson-geometries-lookup": "^0.5.0",
     "geolib": "^3.3.4",
     "uuid": "^13.0.0"
   },
