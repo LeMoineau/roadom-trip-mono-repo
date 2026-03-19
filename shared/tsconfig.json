@@ -1,5 +1,14 @@
 {
-  "include": ["./src/**/*", "src/services"],
+  "include": [
+    "./src/**/*",
+    "src/services",
+    "../roadom-trip-api/src/models/Challenge.model.ts",
+    "../roadom-trip-api/src/models/GeoPoint.model.ts",
+    "../roadom-trip-api/src/models/Hint.model.ts",
+    "../roadom-trip-api/src/models/ProximityNotification.model.ts",
+    "../roadom-trip-api/src/models/Step.model.ts",
+    "../roadom-trip-api/src/models/Trip.model.ts"
+  ],
   "exclude": ["./**/*.spec.*", "../shared/**/*.spec.*"],
   "compilerOptions": {
     /* Visit https://aka.ms/tsconfig to read more about this file */
