@@ -25,7 +25,7 @@
       // "roadom-trip-mobile-app": true,
       // "roadom-trip-api": true,
       // "shared": true,
-      // "**/src/shared": true,
+      "**/src/shared": true,
       // "roadom-trip-api/src/shared": true,
       "**/dist": false,
       "**/.git": true,
